@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {}
+    "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {
+    "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
         "projectName": "Cadastro.Infrastructure.Data",
-        "projectPath": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
+        "projectPath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\lucas.manentti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Infrastructure.Data\\obj\\",
+        "outputPath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

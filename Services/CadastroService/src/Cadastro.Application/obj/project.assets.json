@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Application\\Cadastro.Application.csproj",
+      "projectUniqueName": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Application\\Cadastro.Application.csproj",
       "projectName": "Cadastro.Application",
-      "projectPath": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Application\\Cadastro.Application.csproj",
+      "projectPath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Application\\Cadastro.Application.csproj",
       "packagesPath": "C:\\Users\\lucas.manentti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Application\\obj\\",
+      "outputPath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

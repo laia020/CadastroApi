@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rv9Z0Dwb/cA=",
+  "dgSpecHash": "cwXaBH84h7o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
