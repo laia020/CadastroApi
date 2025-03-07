@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OqYVxlvv3OY=",
+  "dgSpecHash": "a4lQiouY/lQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Domain\\Cadastro.Domain.csproj",
+  "projectFilePath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Domain\\Cadastro.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
     <Folder Include="Factories\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cadastro.Domain\Cadastro.Domain.csproj" />
+    <ProjectReference Include="..\Cadastro.Infrastructure.Data\Cadastro.Infrastructure.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -12,4 +12,8 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cadastro.Domain\Cadastro.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -88,6 +88,53 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Cadastro.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Cadastro.Domain": "1.0.0",
+          "Cadastro.Infrastructure.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cadastro.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cadastro.Application.dll": {}
+        }
+      },
+      "Cadastro.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Cadastro.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cadastro.Domain.dll": {}
+        }
+      },
+      "Cadastro.Infrastructure.CrossCutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Cadastro.Infrastructure.CrossCutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cadastro.Infrastructure.CrossCutting.dll": {}
+        }
+      },
+      "Cadastro.Infrastructure.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Cadastro.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cadastro.Infrastructure.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cadastro.Infrastructure.Data.dll": {}
+        }
       }
     }
   },
@@ -439,10 +486,33 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Cadastro.Application/1.0.0": {
+      "type": "project",
+      "path": "../Cadastro.Application/Cadastro.Application.csproj",
+      "msbuildProject": "../Cadastro.Application/Cadastro.Application.csproj"
+    },
+    "Cadastro.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Cadastro.Domain/Cadastro.Domain.csproj",
+      "msbuildProject": "../Cadastro.Domain/Cadastro.Domain.csproj"
+    },
+    "Cadastro.Infrastructure.CrossCutting/1.0.0": {
+      "type": "project",
+      "path": "../Cadastro.Infrastructure.CrossCutting/Cadastro.Infrastructure.CrossCutting.csproj",
+      "msbuildProject": "../Cadastro.Infrastructure.CrossCutting/Cadastro.Infrastructure.CrossCutting.csproj"
+    },
+    "Cadastro.Infrastructure.Data/1.0.0": {
+      "type": "project",
+      "path": "../Cadastro.Infrastructure.Data/Cadastro.Infrastructure.Data.csproj",
+      "msbuildProject": "../Cadastro.Infrastructure.Data/Cadastro.Infrastructure.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Cadastro.Application >= 1.0.0",
+      "Cadastro.Infrastructure.CrossCutting >= 1.0.0",
+      "Cadastro.Infrastructure.Data >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -453,11 +523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Api\\Cadastro.Api.csproj",
+      "projectUniqueName": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Api\\Cadastro.Api.csproj",
       "projectName": "Cadastro.Api",
-      "projectPath": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Api\\Cadastro.Api.csproj",
+      "projectPath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Api\\Cadastro.Api.csproj",
       "packagesPath": "C:\\Users\\lucas.manentti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Api\\obj\\",
+      "outputPath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -477,7 +547,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Application\\Cadastro.Application.csproj": {
+              "projectPath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Application\\Cadastro.Application.csproj"
+            },
+            "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj"
+            },
+            "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

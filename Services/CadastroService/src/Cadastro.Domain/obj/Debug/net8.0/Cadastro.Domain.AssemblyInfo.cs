@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cadastro.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+324c1a0cccf1acbd1bfcbf3abb8eaaca3b8b2f12")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cadastro.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cadastro.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
