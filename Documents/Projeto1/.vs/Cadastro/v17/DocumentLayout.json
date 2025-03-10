@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E3707F1-8342-4E1F-ACEE-B35BC5A23CF5}|src\\Cadastro.Api\\Cadastro.Api.csproj|c:\\users\\lucas.manentti\\documents\\projeto1\\src\\cadastro.api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E3707F1-8342-4E1F-ACEE-B35BC5A23CF5}|src\\Cadastro.Api\\Cadastro.Api.csproj|solutionrelative:src\\cadastro.api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1905AB7-C2E4-4278-AD1D-F790A0ACA8E6}|src\\Cadastro.Domain\\Cadastro.Domain.csproj|c:\\users\\lucas.manentti\\documents\\projeto1\\src\\cadastro.domain\\assertionconcern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1905AB7-C2E4-4278-AD1D-F790A0ACA8E6}|src\\Cadastro.Domain\\Cadastro.Domain.csproj|solutionrelative:src\\cadastro.domain\\assertionconcern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E3707F1-8342-4E1F-ACEE-B35BC5A23CF5}|src\\Cadastro.Api\\Cadastro.Api.csproj|c:\\users\\lucas.manentti\\documents\\projeto1\\src\\cadastro.api\\cadastro.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2E3707F1-8342-4E1F-ACEE-B35BC5A23CF5}|src\\Cadastro.Api\\Cadastro.Api.csproj|solutionrelative:src\\cadastro.api\\cadastro.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Api\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "src\\Cadastro.Api\\Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Api\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "src\\Cadastro.Api\\Controllers\\ValuesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T22:45:48.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AssertionConcern.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Domain\\AssertionConcern.cs",
-              "RelativeDocumentMoniker": "src\\Cadastro.Domain\\AssertionConcern.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Domain\\AssertionConcern.cs",
-              "RelativeToolTip": "src\\Cadastro.Domain\\AssertionConcern.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T22:38:34.799Z",
+              "Title": "Cadastro.Api",
+              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Api\\Cadastro.Api.csproj",
+              "RelativeDocumentMoniker": "src\\Cadastro.Api\\Cadastro.Api.csproj",
+              "ToolTip": "C:\\Users\\lucas.manentti\\Documents\\Projeto1\\src\\Cadastro.Api\\Cadastro.Api.csproj",
+              "RelativeToolTip": "src\\Cadastro.Api\\Cadastro.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-07T19:10:11.224Z",
               "EditorCaption": ""
             }
           ]

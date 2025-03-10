@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Cadastro.Api.props" />
-</Project>
