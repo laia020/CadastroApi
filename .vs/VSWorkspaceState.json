@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Services",
+    "\\Services\\CadastroService",
+    "\\Services\\CadastroService\\src",
+    "\\Services\\CadastroService\\src\\Cadastro.Api",
+    "\\Services\\CadastroService\\src\\Cadastro.Api\\Controllers",
+    "\\Services\\CadastroService\\src\\Cadastro.Application"
+  ],
+  "SelectedNode": "\\Services\\CadastroService\\src\\Cadastro.Api",
+  "PreviewInSolutionExplorer": false
+}
