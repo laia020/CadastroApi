@@ -9,7 +9,7 @@ namespace Cadastro.Application.Interfaces
 {
     public interface ICepAppServices
     {
-        CepViewModel SearchCep(string cep);
+        Task<CepViewModel> SearchCep(string cep);
 
     }
 }

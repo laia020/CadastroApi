@@ -26,10 +26,10 @@ namespace Cadastro.Api.Controllers
 
         // GET api/<CepController>/5
         [HttpGet("{cep}")]
-        public IActionResult Get(string cep)
+        public async Task<IActionResult> Get(string cep)
         {
 
-            CepViewModel model = _cepAppService.SearchCep(cep);
+            CepViewModel model = await _cepAppService.SearchCep(cep);
 
             return Ok(model);
         }

@@ -9,6 +9,6 @@ namespace Cadastro.Domain.Contracts.Adapters
 {
     public interface ICepAdapter
     {
-        CepEntity SearchCep(string cep);
+        Task<CepEntity> SearchCep(string cep);
     }
 }

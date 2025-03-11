@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Bootstrap\" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cadastro.Adapter\Cadastro.Adapter.csproj" />
+    <ProjectReference Include="..\Cadastro.Application\Cadastro.Application.csproj" />
+    <ProjectReference Include="..\Cadastro.Domain\Cadastro.Domain.csproj" />
   </ItemGroup>
 
 </Project>

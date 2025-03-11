@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cadastro.Application\Cadastro.Application.csproj" />
+    <ProjectReference Include="..\Cadastro.Infrastructure.CrossCutting\Cadastro.Infrastructure.CrossCutting.csproj" />
+  </ItemGroup>
+
 </Project>

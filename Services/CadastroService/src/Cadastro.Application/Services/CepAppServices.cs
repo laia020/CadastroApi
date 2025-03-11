@@ -1,5 +1,7 @@
-﻿using Cadastro.Application.Interfaces;
+﻿using Cadastro.Application.Factories;
+using Cadastro.Application.Interfaces;
 using Cadastro.Application.ViewModels;
+using Cadastro.Domain.Contracts.Adapters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +12,15 @@ namespace Cadastro.Application.Services
 {
     public class CepAppServices : ICepAppServices
     {
-        public CepViewModel SearchCep(string cep)
+        private readonly ICepAdapter _cepAdapter;
+        public CepAppServices(ICepAdapter cepAdapter)
         {
-            throw new NotImplementedException();
+            _cepAdapter = cepAdapter;
+        }
+        public async Task<CepViewModel> SearchCep(string cep)
+        {
+            var entity = await _cepAdapter.SearchCep(cep);
+            return CepFactory.CreateCepFactory(entity);
         }
     }
 }

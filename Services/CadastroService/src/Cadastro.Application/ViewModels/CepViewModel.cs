@@ -6,20 +6,6 @@ using System.Threading.Tasks;
 
 namespace Cadastro.Application.ViewModels
 {
-    public class CepViewModel
-    {
-            public string cep { get; set; }
-            public string logradouro { get; set; }
-            public string complemento { get; set; }
-            public string unidade { get; set; }
-            public string bairro { get; set; }
-            public string localidade { get; set; }
-            public string uf { get; set; }
-            public string estado { get; set; }
-            public string regiao { get; set; }
-            public string ibge { get; set; }
-            public string gia { get; set; }
-            public string ddd { get; set; }
-            public string siafi { get; set; }
-    }
+    public record class CepViewModel(string cep,string logradouro,string complemento, string unidade, string bairro, string localidade, string uf, string estado, string regiao, string ibge, string gia, string ddd, string siafi);
+        
 }
