@@ -1,0 +1,58 @@
+﻿using Cadastro.Application.Interfaces;
+using Cadastro.Application.Services;
+using Cadastro.Application.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace Cadastro.Api.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class UserController : ControllerBase
+    {
+        private readonly IUserAppServices _userAppService;
+        public UserController(IUserAppServices userAppService)
+        {
+            _userAppService = userAppService;
+        }
+        // GET: api/<UserController>
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            List<UserViewModel> user = await _userAppService.getAll();
+
+            return Ok(user);
+        }
+
+        // GET api/<UserController>/5
+        [HttpGet("{userId}")]
+        public async Task<IActionResult> Get(int userId)
+        {
+
+            UserViewModel model = await _userAppService.getById(userId);
+
+            return Ok(model);
+        }
+
+        // POST api/<UserController>
+        [HttpPost]
+        public IActionResult Post([FromBody] UserViewModel model)
+        {
+            _userAppService.add(model);
+            return Ok();
+        }
+
+        // PUT api/<UserController>/5
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody]string value)
+        {
+        }
+
+        // DELETE api/<UserController>/5
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+        }
+    }
+}

@@ -18,6 +18,8 @@ namespace Cadastro.Infrastructure.CrossCutting.Bootstrap
             services.AddScoped<ICepAppServices, CepAppServices>();
             services.AddScoped<ICepAdapter, CepAdapter>();
 
+            services.AddScoped<IUserAppServices, UserAppServices>();
+
         }
     }
 }

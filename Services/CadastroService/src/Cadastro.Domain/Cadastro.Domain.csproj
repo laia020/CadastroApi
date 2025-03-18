@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Contracts\Repositories\" />
-    <Folder Include="Entities\" />
     <Folder Include="Handlers\" />
     <Folder Include="Scopes\" />
     <Folder Include="Enums\" />
