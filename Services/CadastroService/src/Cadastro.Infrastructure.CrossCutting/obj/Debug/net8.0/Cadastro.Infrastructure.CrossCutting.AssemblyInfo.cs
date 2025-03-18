@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cadastro.Infrastructure.CrossCutting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18261dd41a5835fb43e6d8f47cf2afc00a94a359")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d45353435668909da302cb5247c92005f8bb98ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cadastro.Infrastructure.CrossCutting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cadastro.Infrastructure.CrossCutting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
