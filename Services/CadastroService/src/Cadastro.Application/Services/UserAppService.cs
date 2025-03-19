@@ -31,7 +31,7 @@ namespace Cadastro.Application.Services
             throw new NotImplementedException();
         }
 
-        public List<UserViewModel> getAll()
+        public Task <List<UserViewModel>> getAll()
         {
             throw new NotImplementedException();
         }

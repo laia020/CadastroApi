@@ -9,10 +9,19 @@ namespace Cadastro.Domain.Entities
     public class UserEntity
     {
         public string name { get; set; }
-        public string email { get; set; }
+        public IEnumerable<EmailEntity> email { get; set; } //IEnumerateble cria uma lista
         public string password { get; set; }
         public string comfirmPassWord { get; set; }
-        public string foneNumber { get; set; }
+        public IEnumerable<FoneNumberEntity> foneNumber { get; set; }
         public DateTime dataDeNascimento { get; set; }
+
+        public IEnumerable<AddressEntity> address { get; set; }
+        
     }
+
+
+
+   
+
+
 }

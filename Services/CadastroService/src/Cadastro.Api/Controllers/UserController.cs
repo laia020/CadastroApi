@@ -44,15 +44,20 @@ namespace Cadastro.Api.Controllers
         }
 
         // PUT api/<UserController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        [HttpPut("{userId}")]
+        public IActionResult Put(int userId, [FromBody] UserViewModel model)
         {
+            _userAppService.updateById(userId, model);
+            return Ok();
         }
 
         // DELETE api/<UserController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("{userId}")]
+        public IActionResult Delete(int userId)
         {
+            _userAppService.removeById(userId);
+            return Ok();
         }
+
     }
 }

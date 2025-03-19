@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cadastro.Adapter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d45353435668909da302cb5247c92005f8bb98ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e80070ac4410e7adb3d790e1772b123589611b90")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cadastro.Adapter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cadastro.Adapter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
