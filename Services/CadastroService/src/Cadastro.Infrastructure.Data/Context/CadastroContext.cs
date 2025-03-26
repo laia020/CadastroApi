@@ -17,5 +17,8 @@ namespace Cadastro.Infrastructure.Data.Context
         }
         public virtual DbSet<UserEntity> users { get; set; }
         //Fazer a DbSet de cada entity email/adress/fone
+        public virtual DbSet<FoneNumberEntity> fonenumbers { get; set; }
+        public virtual DbSet<EmailEntity> emails { get; set; }
+        public virtual DbSet<AddressEntity> addresses { get; set; }
     }
 }
