@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "src\\Cadastro.Infrastructure.Data\\Context\\CadastroContext.cs",
               "ToolTip": "C:\\Users\\lucas.manentti\\Documents\\CadastroApi\\Services\\CadastroService\\src\\Cadastro.Infrastructure.Data\\Context\\CadastroContext.cs",
               "RelativeToolTip": "src\\Cadastro.Infrastructure.Data\\Context\\CadastroContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T21:51:37.649Z",
               "EditorCaption": ""
@@ -87,8 +87,7 @@
               "RelativeToolTip": "src\\Cadastro.Infrastructure.Data\\Repositories\\Repository.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T21:32:48.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T21:32:48.455Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "src\\Cadastro.Domain\\Entities\\AddressEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T21:07:37.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T21:07:37.801Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "src\\Cadastro.Domain\\Entities\\FoneNumberEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T20:27:44.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T20:27:44.224Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "src\\Cadastro.Domain\\Entities\\EmailEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T20:26:20.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T20:26:20.91Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "src\\Cadastro.Domain\\Entities\\UserEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:24:47.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T21:24:47.344Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "src\\Cadastro.Application\\Interfaces\\IUserAppServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:45:54.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T21:45:54.483Z"
             },
             {
               "$type": "Document",
@@ -189,8 +183,7 @@
               "RelativeToolTip": "src\\Cadastro.Domain\\Entities\\Base\\Identity.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAkwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T21:11:47.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T21:11:47.257Z"
             },
             {
               "$type": "Document",
@@ -202,8 +195,7 @@
               "RelativeToolTip": "src\\Cadastro.Infrastructure.CrossCutting\\Bootstrap\\NativeBootstrap.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAwwBQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T21:47:23.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T21:47:23.153Z"
             },
             {
               "$type": "Document",
