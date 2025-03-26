@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cadastro.Infrastructure.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aff68f411795c4915c5b7e5fc5bf7202e1a95f7")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f104dfe5356b4a28d7d6260065abfbcc6151292")]
+>>>>>>> createUser
 [assembly: System.Reflection.AssemblyProductAttribute("Cadastro.Infrastructure.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cadastro.Infrastructure.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

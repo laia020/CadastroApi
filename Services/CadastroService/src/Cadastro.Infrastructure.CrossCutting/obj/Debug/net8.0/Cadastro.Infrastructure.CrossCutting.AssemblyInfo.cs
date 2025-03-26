@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cadastro.Infrastructure.CrossCutting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c64dff0f8d242b8483ee80f121760ae2b1ba4d1")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35c6fef62cd315062eeaacc4f7b0815a02c858f3")]
+>>>>>>> createUser
 [assembly: System.Reflection.AssemblyProductAttribute("Cadastro.Infrastructure.CrossCutting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cadastro.Infrastructure.CrossCutting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
