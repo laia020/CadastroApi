@@ -70,8 +70,7 @@
               "RelativeToolTip": "src\\Cadastro.Infrastructure.CrossCutting\\Bootstrap\\NativeBootstrap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T22:44:35.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T22:44:35.405Z"
             },
             {
               "$type": "Document",
@@ -156,8 +155,7 @@
               "RelativeToolTip": "src\\Cadastro.Adapter\\CepAdapter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T21:47:40.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T21:47:40.456Z"
             }
           ]
         }
