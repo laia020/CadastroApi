@@ -17,20 +17,20 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 17
-          distribution: 'zulu' # Alternative distribution options are available.
+          distribution: 'zulu'
 
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+          fetch-depth: 0
 
-      - name: Cache SonarQube Cloud packages
+      - name: Cache SonarCloud packages
         uses: actions/cache@v4
         with:
           path: ~\sonar\cache
           key: ${{ runner.os }}-sonar
           restore-keys: ${{ runner.os }}-sonar
 
-      - name: Cache SonarQube Cloud scanner
+      - name: Cache SonarCloud scanner
         id: cache-sonar-scanner
         uses: actions/cache@v4
         with:
@@ -38,7 +38,7 @@ jobs:
           key: ${{ runner.os }}-sonar-scanner
           restore-keys: ${{ runner.os }}-sonar-scanner
 
-      - name: Install SonarQube Cloud scanner
+      - name: Install SonarCloud scanner
         if: steps.cache-sonar-scanner.outputs.cache-hit != 'true'
         shell: powershell
         run: |
@@ -50,11 +50,9 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-          # Caminho completo para o arquivo .sln
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"laia020_CadastroApi" /o:"laia020" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /s:"./Services/CadastroService/CadastroApi.sln"
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"laia020_CadastroApi" /o:"laia020" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           
-          # Build do projeto
-          dotnet build ./Services/CadastroService/CadastroApi.sln --no-incremental --configuration Release
+          # Build do projeto apontando para o .sln
+          dotnet build .\Services\CadastroService\Cadastro.sln --no-incremental --configuration Release
           
-          # Finaliza a análise
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
