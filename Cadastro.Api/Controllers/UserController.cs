@@ -18,6 +18,7 @@ namespace Cadastro.Api.Controllers
         }
         // GET: api/<UserController>
         [HttpGet]
+        [ProducesResponseType<List<UserViewModel>>(StatusCodes.Status200OK)]
         public IActionResult Get()
         {
             List<UserViewModel> user =  _userAppService.getAll();
