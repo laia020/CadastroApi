@@ -9,11 +9,11 @@ namespace Cadastro.Application.ViewModels
 {
     public class AddressViewModel
     {
-        public string street { get; set; }
-        public int number { get; set; }
-        public string complement { get; set; }
+        public string? Street { get; set; }
+        public int Number { get; set; }
+        public string? Complement { get; set; }
 
         //public string estado { get; set; } // Select, obrigatório, com lista de estados brasileiros
-        public string zipCode { get; set; }
+        public string? ZipCode { get; set; }
     }
 }

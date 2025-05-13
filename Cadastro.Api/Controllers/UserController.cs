@@ -27,9 +27,9 @@ namespace Cadastro.Api.Controllers
         }
         // GET api/<UserController>/5
         [HttpGet("{userId}")]
+        [ProducesResponseType<UserViewModel>(StatusCodes.Status200OK)]
         public IActionResult Get(int userId)
         {
-
             UserViewModel model = _userAppService.getById(userId);
 
             return Ok(model);

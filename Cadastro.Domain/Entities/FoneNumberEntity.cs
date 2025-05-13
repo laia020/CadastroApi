@@ -9,10 +9,10 @@ namespace Cadastro.Domain.Entities
 {
     public class FoneNumberEntity: Identity<int>
     {
-        public string ddi { get; set; }
-        public string ddd { get; set; }
-        public string number { get; set; }
-        public int userId { get; set; }
-        public UserEntity user { get; set; }
+        public string? Ddi { get; set; }
+        public string? Ddd { get; set; }
+        public string? Number { get; set; }
+        public int UserId { get; set; }
+        public UserEntity? User { get; set; }
     }
 }

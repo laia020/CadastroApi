@@ -17,18 +17,18 @@ namespace Cadastro.Infrastructure.Data.Mappings
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).HasColumnName("Id").IsRequired().ValueGeneratedOnAdd();
 
-            builder.Property(x => x.name).HasColumnName("Name").HasColumnType("varchar(50)");
+            builder.Property(x => x.Name).HasColumnName("Name").HasColumnType("varchar(50)");
 
-            builder.Property(x => x.password).HasColumnName("Password").IsRequired().HasColumnType("varchar(50)");
-            builder.Property(x => x.confirmPassword).HasColumnName("ConfirmPassword").HasColumnType("varchar(50)");
+            builder.Property(x => x.Password).HasColumnName("Password").IsRequired().HasColumnType("varchar(50)");
+            builder.Property(x => x.ConfirmPassword).HasColumnName("ConfirmPassword").HasColumnType("varchar(50)");
 
-            builder.Property(x => x.dateBirthday).HasColumnType("datetime");
+            builder.Property(x => x.DateBirthday).HasColumnType("datetime");
 
-            builder.HasMany(x => x.email).WithOne(x => x.user).HasForeignKey(x => x.userId);
+            builder.HasMany(x => x.Email).WithOne(x => x.User).HasForeignKey(x => x.UserId);
 
-            builder.HasMany(x => x.foneNumber).WithOne(x => x.user).HasForeignKey(x => x.userId);
+            builder.HasMany(x => x.FoneNumber).WithOne(x => x.User).HasForeignKey(x => x.UserId);
 
-            builder.HasMany(x => x.address).WithOne(x => x.user).HasForeignKey(x => x.userId);
+            builder.HasMany(x => x.Address).WithOne(x => x.User).HasForeignKey(x => x.UserId);
 
         }
     }

@@ -21,12 +21,12 @@ namespace Cadastro.Infrastructure.Data.Repositories
 
         public override IEnumerable<UserEntity> GetAll()
         {
-            return _context.users.Include(p => p.email).Include(p => p.address).Include(p => p.foneNumber);
+            return _context.Users.Include(p => p.Email).Include(p => p.Address).Include(p => p.FoneNumber);
         }
 
         public override UserEntity GetById(int id)
         {
-            return _context.users.Include(p => p.email).Include(p => p.address).Include(p => p.foneNumber).FirstOrDefault(p => p.Id == id);
+            return _context.Users.Include(p => p.Email).Include(p => p.Address).Include(p => p.FoneNumber).FirstOrDefault(p => p.Id == id);
         }
     }
 }

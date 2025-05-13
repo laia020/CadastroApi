@@ -1,6 +1,7 @@
 using Cadastro.Infrastructure.CrossCutting.Bootstrap;
 using Cadastro.Infrastructure.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -13,10 +14,11 @@ builder.Services.AddSwaggerGen();
 
 NativeBootstrap.serviceLocation(builder.Services);
 
+string connection = configuration.GetConnectionString("BaseIdentity") ?? string.Empty;
 
 builder.Services.AddDbContext<CadastroContext>(options =>
 {
-    options.UseSqlite(configuration.GetConnectionString("BaseIdentity"));
+    options.UseSqlite(connection);
     options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 });
 

@@ -9,8 +9,8 @@ namespace Cadastro.Domain.Entities
 {
     public class EmailEntity: Identity <int>
     {
-        public string email { get; set; }
-        public int userId { get; set; }
-        public UserEntity user { get; set; }
+        public string? Email { get; set; }
+        public int UserId { get; set; }
+        public UserEntity? User { get; set; }
     }
 }

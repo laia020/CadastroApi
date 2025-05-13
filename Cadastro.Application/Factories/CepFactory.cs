@@ -14,7 +14,7 @@ namespace Cadastro.Application.Factories
     {
         public static CepViewModel CreateCepFactory(CepEntity entity)
         {
-            return new CepViewModel(entity.cep, entity.logradouro, entity.complemento, entity.unidade, entity.bairro, entity.localidade, entity.uf, entity.estado, entity.regiao, entity.ibge, entity.gia, entity.ddd, entity.siafi);
+            return new CepViewModel(entity.Cep, entity.Logradouro, entity.Complemento, entity.Unidade, entity.Bairro, entity.Localidade, entity.Uf, entity.Estado, entity.Regiao, entity.Ibge, entity.Gia, entity.Ddd, entity.Siafi);
         }
     }
 }

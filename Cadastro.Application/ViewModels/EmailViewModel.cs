@@ -9,7 +9,7 @@ namespace Cadastro.Application.ViewModels
 {
     public class EmailViewModel
     {
-        public int id { get; set; }
-        public string email { get; set; }
+        public int Id { get; set; }
+        public string? Email { get; set; }
     }
 }

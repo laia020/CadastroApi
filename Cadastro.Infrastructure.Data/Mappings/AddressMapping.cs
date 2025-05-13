@@ -17,15 +17,15 @@ namespace Cadastro.Infrastructure.Data.Mappings
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).HasColumnName("Id").IsRequired().ValueGeneratedOnAdd();
 
-            builder.Property(x => x.street).HasColumnName("street").IsRequired().HasColumnType("varchar(50)");
+            builder.Property(x => x.Street).HasColumnName("street").IsRequired().HasColumnType("varchar(50)");
 
             builder.Property(x => x.number).HasColumnName("number").IsRequired().HasColumnType("int");
 
-            builder.Property(x => x.complement).HasColumnName("complement").HasColumnType("varchar(30)");
+            builder.Property(x => x.Complement).HasColumnName("complement").HasColumnType("varchar(30)");
 
-            builder.Property(x => x.zipCode).HasColumnName("zipCode").IsRequired().HasColumnType("varchar(10)");
+            builder.Property(x => x.ZipCode).HasColumnName("zipCode").IsRequired().HasColumnType("varchar(10)");
 
-            builder.HasOne(x => x.user).WithMany(x => x.address).HasForeignKey(x => x.userId);
+            builder.HasOne(x => x.User).WithMany(x => x.Address).HasForeignKey(x => x.UserId);
         }
     }
 }

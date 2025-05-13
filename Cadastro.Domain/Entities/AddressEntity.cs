@@ -9,13 +9,13 @@ namespace Cadastro.Domain.Entities
 {
     public class AddressEntity: Identity<int>
     {
-        public string street { get; set; }
+        public string? Street { get; set; }
         public int number { get; set; }
-        public string complement { get; set; }
+        public string? Complement { get; set; }
 
         //public string estado { get; set; } // Select, obrigatório, com lista de estados brasileiros
-        public string zipCode { get; set; } 
-        public int userId { get; set; }
-        public UserEntity user { get; set; }
+        public string? ZipCode { get; set; } 
+        public int UserId { get; set; }
+        public UserEntity? User { get; set; }
     }
 }

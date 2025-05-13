@@ -14,13 +14,13 @@ namespace Cadastro.Domain.Entities
         //{
         //    _dtb = dateBirthday;
         //}
-        public string name { get; set; }
-        public IEnumerable<EmailEntity> email { get; set; } //IEnumerateble cria uma lista
-        public string password { get; set; }
-        public string? confirmPassword { get; set; }
-        public IEnumerable<FoneNumberEntity> foneNumber { get; set; }
+        public string? Name { get; set; }
+        public IEnumerable<EmailEntity>? Email { get; set; } //IEnumerateble cria uma lista
+        public string? Password { get; set; }
+        public string? ConfirmPassword { get; set; }
+        public IEnumerable<FoneNumberEntity>? FoneNumber { get; set; }
 
-        public DateTime dateBirthday { get; set; }
+        public DateTime DateBirthday { get; set; }
 
         //public DateTime dateBirthday { 
 
@@ -37,7 +37,6 @@ namespace Cadastro.Domain.Entities
 
         //}
 
-        public IEnumerable<AddressEntity> address { get; set; }
-        
+        public IEnumerable<AddressEntity>? Address { get; set; }
     }
 }

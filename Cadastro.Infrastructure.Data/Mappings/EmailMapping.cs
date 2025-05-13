@@ -17,9 +17,9 @@ namespace Cadastro.Infrastructure.Data.Mappings
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).HasColumnName("Id").IsRequired().ValueGeneratedOnAdd();
 
-            builder.Property(x => x.email).HasColumnName("Email").IsRequired().HasColumnType("Varchar(100)");
+            builder.Property(x => x.Email).HasColumnName("Email").IsRequired().HasColumnType("Varchar(100)");
 
-            builder.HasOne(x => x.user).WithMany(x => x.email).HasForeignKey(x => x.userId);
+            builder.HasOne(x => x.User).WithMany(x => x.Email).HasForeignKey(x => x.UserId);
         }
     }
 }

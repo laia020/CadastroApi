@@ -16,10 +16,10 @@ namespace Cadastro.Infrastructure.Data.Context
         {
                 
         }
-        public virtual DbSet<UserEntity> users { get; set; }
-        public virtual DbSet<FoneNumberEntity> fonenumbers { get; set; }
-        public virtual DbSet<EmailEntity> emails { get; set; }
-        public virtual DbSet<AddressEntity> addresses { get; set; }
+        public required virtual DbSet<UserEntity> Users { get; set; }
+        public required virtual DbSet<FoneNumberEntity> Fonenumbers { get; set; }
+        public required virtual DbSet<EmailEntity> Emails { get; set; }
+        public required virtual DbSet<AddressEntity> Addresses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

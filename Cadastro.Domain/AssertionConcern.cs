@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace Cadastro.Domain
 {
-    public static class AssertionConcern
-    {
-    }
+
 }

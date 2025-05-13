@@ -17,13 +17,13 @@ namespace Cadastro.Infrastructure.Data.Mappings
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).HasColumnName("Id").IsRequired().ValueGeneratedOnAdd();
 
-            builder.Property(x => x.ddi).IsRequired().HasColumnType("varchar(10)");
+            builder.Property(x => x.Ddi).IsRequired().HasColumnType("varchar(10)");
 
-            builder.Property(x => x.ddd).IsRequired().HasColumnType("varchar(10)");
+            builder.Property(x => x.Ddd).IsRequired().HasColumnType("varchar(10)");
 
-            builder.Property(x => x.number).HasColumnName("FoneNumber").IsRequired().HasColumnType("varchar(14)");
+            builder.Property(x => x.Number).HasColumnName("FoneNumber").IsRequired().HasColumnType("varchar(14)");
 
-            builder.HasOne(x => x.user).WithMany(x => x.foneNumber).HasForeignKey(x => x.userId);
+            builder.HasOne(x => x.User).WithMany(x => x.FoneNumber).HasForeignKey(x => x.UserId);
         }
     }
 }
