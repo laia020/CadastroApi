@@ -12,7 +12,7 @@ namespace Cadastro.Domain.Contracts.Interfaces
 
         IEnumerable<TEntity> GetAll();
 
-        TEntity GetById(int id);
+        TEntity? GetById(int id);
 
         void AddRange(IEnumerable<TEntity> obj);
 

@@ -7,17 +7,20 @@ namespace Cadastro.Infrastructure.Data.Migrations
 {
     public partial class InitialCreate : Migration
     {
+        private const string IntegerType = "INTEGER";
+        private const string SqliteAutoIncrement = "Sqlite:Autoincrement";
+        private const string SqlVarchar50 = "varchar(50)";
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
                 name: "User",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "varchar(50)", nullable: false),
-                    Password = table.Column<string>(type: "varchar(50)", nullable: false),
-                    ConfirmPassword = table.Column<string>(type: "varchar(50)", nullable: true),
+                    Id = table.Column<int>(type: IntegerType, nullable: false)
+                        .Annotation(SqliteAutoIncrement, true),
+                    Name = table.Column<string>(type: SqlVarchar50, nullable: false),
+                    Password = table.Column<string>(type: SqlVarchar50, nullable: false),
+                    ConfirmPassword = table.Column<string>(type: SqlVarchar50, nullable: true),
                     dateBirthday = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
@@ -29,13 +32,13 @@ namespace Cadastro.Infrastructure.Data.Migrations
                 name: "Address",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    street = table.Column<string>(type: "varchar(50)", nullable: false),
+                    Id = table.Column<int>(type: IntegerType, nullable: false)
+                        .Annotation(SqliteAutoIncrement, true),
+                    street = table.Column<string>(type: SqlVarchar50, nullable: false),
                     number = table.Column<int>(type: "int", nullable: false),
                     complement = table.Column<string>(type: "varchar(30)", nullable: false),
                     zipCode = table.Column<string>(type: "varchar(10)", nullable: false),
-                    userId = table.Column<int>(type: "INTEGER", nullable: false)
+                    userId = table.Column<int>(type: IntegerType, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -52,10 +55,10 @@ namespace Cadastro.Infrastructure.Data.Migrations
                 name: "Email",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                    Id = table.Column<int>(type: IntegerType, nullable: false)
+                        .Annotation(SqliteAutoIncrement, true),
                     Email = table.Column<string>(type: "Varchar(100)", nullable: false),
-                    userId = table.Column<int>(type: "INTEGER", nullable: false)
+                    userId = table.Column<int>(type: IntegerType, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -72,12 +75,12 @@ namespace Cadastro.Infrastructure.Data.Migrations
                 name: "FoneNumber",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                    Id = table.Column<int>(type: IntegerType, nullable: false)
+                        .Annotation(SqliteAutoIncrement, true),
                     ddi = table.Column<string>(type: "varchar(10)", nullable: false),
                     ddd = table.Column<string>(type: "varchar(10)", nullable: false),
                     FoneNumber = table.Column<string>(type: "varchar(14)", nullable: false),
-                    userId = table.Column<int>(type: "INTEGER", nullable: false)
+                    userId = table.Column<int>(type: IntegerType, nullable: false)
                 },
                 constraints: table =>
                 {

@@ -16,7 +16,6 @@ namespace Cadastro.Infrastructure.Data.Repositories
     {
         protected readonly CadastroContext Db;
         protected readonly DbSet<TEntity> DbSet;
-        private bool _disposed = false;
 
         public Repository(CadastroContext context)
         {
@@ -41,7 +40,7 @@ namespace Cadastro.Infrastructure.Data.Repositories
             return DbSet.ToList();
         }
 
-        public virtual TEntity GetById(int id)
+        public virtual TEntity? GetById(int id)
         {
             try
             {
