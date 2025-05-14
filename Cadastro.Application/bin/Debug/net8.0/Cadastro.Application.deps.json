@@ -91,7 +91,10 @@
       },
       "Cadastro.Domain/1.0.0": {
         "runtime": {
-          "Cadastro.Domain.dll": {}
+          "Cadastro.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

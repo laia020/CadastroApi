@@ -12,16 +12,16 @@ namespace Cadastro.Application.ViewModels
     {
 
 
-  
+
         public string? Name { get; set; }
         public IEnumerable<EmailViewModel>? Email { get; set; } //IEnumerateble cria uma lista
-        public string? password { get; set; }
-        public string? confirmPassword { get; set; }
+        public string? Password { get; set; }
+        public string? ConfirmPassword { get; set; }
         public IEnumerable<FoneNumberViewModel>? FoneNumber { get; set; }
 
-        public DateTime dateBirthday { get; set; }
+        public DateTime DateBirthday { get; set; }
 
-      
+
         public IEnumerable<AddressViewModel>? Address { get; set; }
     }
     

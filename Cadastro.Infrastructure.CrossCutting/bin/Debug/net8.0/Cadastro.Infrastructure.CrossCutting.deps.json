@@ -455,7 +455,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "Cadastro.Adapter.dll": {}
+          "Cadastro.Adapter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Cadastro.Application/1.0.0": {
@@ -464,12 +467,18 @@
           "FastMapper.NetCore": "1.0.0"
         },
         "runtime": {
-          "Cadastro.Application.dll": {}
+          "Cadastro.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Cadastro.Domain/1.0.0": {
         "runtime": {
-          "Cadastro.Domain.dll": {}
+          "Cadastro.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Cadastro.Infrastructure.Data/1.0.0": {
@@ -481,7 +490,10 @@
           "Microsoft.EntityFrameworkCore.Tools": "6.0.1"
         },
         "runtime": {
-          "Cadastro.Infrastructure.Data.dll": {}
+          "Cadastro.Infrastructure.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
