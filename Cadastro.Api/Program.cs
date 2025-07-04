@@ -1,20 +1,23 @@
 using Cadastro.Infrastructure.CrossCutting.Bootstrap;
 using Cadastro.Infrastructure.Data.Context;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 NativeBootstrap.serviceLocation(builder.Services);
 
-string connection = configuration.GetConnectionString("BaseIdentity") ?? string.Empty;
+// Connection string adaptável: local + Docker
+string connection = configuration.GetConnectionString("BaseIdentity") ?? "";
+var envConnection = Environment.GetEnvironmentVariable("CONNECTION_STRING");
+if (!string.IsNullOrEmpty(envConnection))
+{
+    connection = envConnection;
+}
 
 builder.Services.AddDbContext<CadastroContext>(options =>
 {
@@ -24,7 +27,12 @@ builder.Services.AddDbContext<CadastroContext>(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<CadastroContext>();
+    db.Database.Migrate(); // Cria e aplica migrations
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -32,9 +40,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

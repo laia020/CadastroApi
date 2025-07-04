@@ -1,11 +1,8 @@
 para rodar o projeto: dotnet run
 
-passo para iniciar o sonarqube:
+editar o appsettings.json:
 
-criar o repositorio dar o commit
-
-entrar no sonarqube cloud
-
-cadastrar a secret
+docker: "Data Source=/data/dev.db"
+local: "Data Source=dev.db"
 
 

@@ -3,52 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}|Cadastro.Application\\Cadastro.Application.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.application\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}|Cadastro.Application\\Cadastro.Application.csproj|solutionrelative:cadastro.application\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}|Cadastro.Domain\\Cadastro.Domain.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.domain\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}|Cadastro.Domain\\Cadastro.Domain.csproj|solutionrelative:cadastro.domain\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}|Cadastro.Application\\Cadastro.Application.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.application\\services\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}|Cadastro.Application\\Cadastro.Application.csproj|solutionrelative:cadastro.application\\services\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}|Cadastro.Api\\Cadastro.Api.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}|Cadastro.Api\\Cadastro.Api.csproj|solutionrelative:cadastro.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C0F1E72-E758-4E74-BEC3-441F8FE813F2}|Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.infrastructure.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F1E72-E758-4E74-BEC3-441F8FE813F2}|Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj|solutionrelative:cadastro.infrastructure.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}|Cadastro.Api\\Cadastro.Api.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}|Cadastro.Api\\Cadastro.Api.csproj|solutionrelative:cadastro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}|Cadastro.Domain\\Cadastro.Domain.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.domain\\entities\\addressentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}|Cadastro.Domain\\Cadastro.Domain.csproj|solutionrelative:cadastro.domain\\entities\\addressentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}|Cadastro.Application\\Cadastro.Application.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.application\\viewmodels\\addressviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}|Cadastro.Application\\Cadastro.Application.csproj|solutionrelative:cadastro.application\\viewmodels\\addressviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F1E72-E758-4E74-BEC3-441F8FE813F2}|Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.infrastructure.data\\context\\cadastrocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F1E72-E758-4E74-BEC3-441F8FE813F2}|Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj|solutionrelative:cadastro.infrastructure.data\\context\\cadastrocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}|Cadastro.Api\\Cadastro.Api.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}|Cadastro.Api\\Cadastro.Api.csproj|solutionrelative:cadastro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}|Cadastro.Domain\\Cadastro.Domain.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.domain\\entities\\emailentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}|Cadastro.Domain\\Cadastro.Domain.csproj|solutionrelative:cadastro.domain\\entities\\emailentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90F057BA-E651-446D-83D5-098F34E2A834}|Cadastro.Adapter\\Cadastro.Adapter.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.adapter\\cepadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90F057BA-E651-446D-83D5-098F34E2A834}|Cadastro.Adapter\\Cadastro.Adapter.csproj|solutionrelative:cadastro.adapter\\cepadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F486EADB-4A03-4573-BB21-5E8B99014064}|Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.infrastructure.crosscutting\\bootstrap\\nativebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F486EADB-4A03-4573-BB21-5E8B99014064}|Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj|solutionrelative:cadastro.infrastructure.crosscutting\\bootstrap\\nativebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}|Cadastro.Application\\Cadastro.Application.csproj|c:\\users\\lucas.manentti\\projetos\\cadastroapi\\cadastro_dotnet\\cadastro.application\\services\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}|Cadastro.Application\\Cadastro.Application.csproj|solutionrelative:cadastro.application\\services\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,84 +22,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Entities\\UserEntity.cs",
-              "RelativeDocumentMoniker": "Cadastro.Domain\\Entities\\UserEntity.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Entities\\UserEntity.cs",
-              "RelativeToolTip": "Cadastro.Domain\\Entities\\UserEntity.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T17:50:31.576Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Cadastro.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Api\\appsettings.json",
+              "RelativeToolTip": "Cadastro.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-04T17:20:17.769Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\ViewModels\\UserViewModel.cs",
-              "RelativeDocumentMoniker": "Cadastro.Application\\ViewModels\\UserViewModel.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\ViewModels\\UserViewModel.cs",
-              "RelativeToolTip": "Cadastro.Application\\ViewModels\\UserViewModel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T17:50:08.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Cadastro.Infrastructure.Data\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Cadastro.Infrastructure.Data\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:47:08.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddressViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\ViewModels\\AddressViewModel.cs",
-              "RelativeDocumentMoniker": "Cadastro.Application\\ViewModels\\AddressViewModel.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\ViewModels\\AddressViewModel.cs",
-              "RelativeToolTip": "Cadastro.Application\\ViewModels\\AddressViewModel.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:47:09.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddressEntity.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Entities\\AddressEntity.cs",
-              "RelativeDocumentMoniker": "Cadastro.Domain\\Entities\\AddressEntity.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Entities\\AddressEntity.cs",
-              "RelativeToolTip": "Cadastro.Domain\\Entities\\AddressEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:47:09.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmailEntity.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Entities\\EmailEntity.cs",
-              "RelativeDocumentMoniker": "Cadastro.Domain\\Entities\\EmailEntity.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Entities\\EmailEntity.cs",
-              "RelativeToolTip": "Cadastro.Domain\\Entities\\EmailEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:47:09.145Z"
             },
             {
               "$type": "Document",
@@ -145,73 +53,23 @@
               "RelativeDocumentMoniker": "Cadastro.Application\\Services\\UserAppService.cs",
               "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Services\\UserAppService.cs",
               "RelativeToolTip": "Cadastro.Application\\Services\\UserAppService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAIAwwDMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAApwDMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T20:47:09.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Cadastro.Api\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Api\\Controllers\\UserController.cs",
               "RelativeToolTip": "Cadastro.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAMwDEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T20:47:09.156Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Cadastro.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Api\\Program.cs",
-              "RelativeToolTip": "Cadastro.Api\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAnwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:47:09.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CepAdapter.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\CepAdapter.cs",
-              "RelativeDocumentMoniker": "Cadastro.Adapter\\CepAdapter.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\CepAdapter.cs",
-              "RelativeToolTip": "Cadastro.Adapter\\CepAdapter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:47:09.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CadastroContext.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Context\\CadastroContext.cs",
-              "RelativeDocumentMoniker": "Cadastro.Infrastructure.Data\\Context\\CadastroContext.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Context\\CadastroContext.cs",
-              "RelativeToolTip": "Cadastro.Infrastructure.Data\\Context\\CadastroContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAnwBEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:47:09.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NativeBootstrap.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\Bootstrap\\NativeBootstrap.cs",
-              "RelativeDocumentMoniker": "Cadastro.Infrastructure.CrossCutting\\Bootstrap\\NativeBootstrap.cs",
-              "ToolTip": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\Bootstrap\\NativeBootstrap.cs",
-              "RelativeToolTip": "Cadastro.Infrastructure.CrossCutting\\Bootstrap\\NativeBootstrap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:47:09.185Z"
             }
           ]
         }
