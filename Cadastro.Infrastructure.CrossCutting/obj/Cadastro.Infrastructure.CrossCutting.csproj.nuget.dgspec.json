@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj": {}
+    "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj": {
+    "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj",
         "projectName": "Cadastro.Adapter",
-        "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj",
+        "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj",
         "packagesPath": "C:\\Users\\lucas.manentti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\obj\\",
+        "outputPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\lucas.manentti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
-                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
               }
             }
           }
@@ -79,17 +80,18 @@
         }
       }
     },
-    "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Cadastro.Application.csproj": {
+    "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Cadastro.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Cadastro.Application.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Cadastro.Application.csproj",
         "projectName": "Cadastro.Application",
-        "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Cadastro.Application.csproj",
+        "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Cadastro.Application.csproj",
         "packagesPath": "C:\\Users\\lucas.manentti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\obj\\",
+        "outputPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\lucas.manentti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,8 +109,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
-                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
               }
             }
           }
@@ -154,17 +156,18 @@
         }
       }
     },
-    "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+    "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj",
         "projectName": "Cadastro.Domain",
-        "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj",
+        "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj",
         "packagesPath": "C:\\Users\\lucas.manentti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\obj\\",
+        "outputPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\lucas.manentti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -219,17 +222,18 @@
         }
       }
     },
-    "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj": {
+    "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj",
         "projectName": "Cadastro.Infrastructure.CrossCutting",
-        "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\lucas.manentti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\lucas.manentti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -247,17 +251,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj": {
-                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj"
+              "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj": {
+                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj"
               },
-              "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Cadastro.Application.csproj": {
-                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Cadastro.Application.csproj"
+              "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Cadastro.Application.csproj": {
+                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Application\\Cadastro.Application.csproj"
               },
-              "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
-                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
               },
-              "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {
-                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj"
+              "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj"
               }
             }
           }
@@ -303,17 +307,18 @@
         }
       }
     },
-    "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {
+    "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
         "projectName": "Cadastro.Infrastructure.Data",
-        "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
+        "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\lucas.manentti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\obj\\",
+        "outputPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\lucas.manentti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -331,8 +336,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
-                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oWI2U2ex0OE=",
+  "dgSpecHash": "8laUsT3nVEk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas.manentti\\Projetos\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
+  "projectFilePath": "C:\\Users\\lucas.manentti\\Projetos\\Projetos Pessoais\\CadastroApi\\cadastro_dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas.manentti\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lucas.manentti\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.1\\microsoft.data.sqlite.core.6.0.1.nupkg.sha512",
